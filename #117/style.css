@@ -1,0 +1,107 @@
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-block {
+    width: 230px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.letter-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.letter {
+    height: 280px;
+    width: 42px;
+    background-color: #2E2926;
+}
+
+.line-1 {
+    transform: rotateZ(26deg);
+    margin-left: 26px;
+}
+
+.line-2 {
+    transform: rotateZ(-26deg);
+    margin-right: 26px;
+}
+
+.check-block {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-content {
+    height: 180px;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+
+.content-1 {
+    width: 85px;
+    left: 30px;
+}
+
+.content-2 {
+    width: 115px;
+    right: 0;
+}
+
+.filled-cirle {
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-color: #0088CA;
+    border-radius: 50%;
+}
+
+.check {
+    height: 32px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.check::after {
+    content: "";
+    height: 18px;
+    width: 100%;
+    background-color: #0088CA;
+    /* position: absolute; */
+}
+
+.check-1 {
+    width: 180px;
+    position: absolute;
+    transform: rotateZ(45deg);
+    left: -40px;
+    margin-top: 37px;
+}
+
+.check-2 {
+    width: 190px;
+    position: absolute;
+    transform: rotateZ(-45deg);
+    right: -40px;
+    margin-top: -10px;
+}
